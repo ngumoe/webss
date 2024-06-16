@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>GIS Project Idea: Urban Green Space Analysis</h1>
+            <p>Urban green spaces are essential for enhancing the quality of life in cities by providing recreational areas, improving air quality, and supporting biodiversity. This project aims to analyze the distribution and accessibility of urban green spaces in Nairobi using GIS and remote sensing techniques.</p>
+        </section>
+        <section>
+            <h2>Project Objectives</h2>
+            <ul>
+                <li>Identify and map existing green spaces in Nairobi.</li>
+                <li>Analyze the accessibility of green spaces to the urban population.</li>
+                <li>Evaluate the spatial distribution of green spaces in relation to urban density.</li>
+                <li>Propose recommendations for improving green space accessibility and distribution.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Methodology</h2>
+            <p>The project will utilize satellite imagery and GIS tools to map and analyze green spaces. The steps include:</p>
+            <ol>
+                <li>Acquiring high-resolution satellite images of Nairobi.</li>
+                <li>Using remote sensing techniques to classify and identify green spaces.</li>
+                <li>Applying spatial analysis tools in GIS to assess accessibility and distribution.</li>
+                <li>Generating maps and reports to visualize findings and recommendations.</li>
+            </ol>
+        </section>
+        <section>
+            <h2>Expected Outcomes</h2>
+            <p>The project will provide valuable insights into the current state of urban green spaces in Nairobi and highlight areas that require attention for urban planning and policy-making.</p>
+        </section>
+        <section>
+            <h2>Interactive Components</h2>
+            <button onclick="alert('Button Clicked!')">Click Me</button>
+            <div>
+                <label for="filter">Filter:</label>
+                <input type="text" id="filter" placeholder="Type to filter...">
+            </div>
+            <div>
+                <label for="textbox">Text Box:</label>
+                <input type="text" id="textbox" placeholder="Enter text...">
+            </div>
+            <div>
+                <a href="https://www.example.com" target="_blank">External Link</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Trevor Ngumo Njiru</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
